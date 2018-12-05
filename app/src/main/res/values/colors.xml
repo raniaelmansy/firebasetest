@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="yellowGreen">#9dce29</color>
+    <color name="BattleshipGrey">#848484</color>
+    <color name="OuterSpace">#4a4a4a</color>
+    <color name="colorSecondary">#FFC107</color>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--<string name="firebase_web_host" translatable="false">1:483790675172:android:79edb0a043167936.firebaseapp.com</string>-->
+</resources>
