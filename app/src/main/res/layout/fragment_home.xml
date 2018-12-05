@@ -16,6 +16,13 @@
         android:textColor="@color/colorPrimary"
         android:textSize="30sp" />
 
+    <Button
+        android:id="@+id/sign_out_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="305dp"

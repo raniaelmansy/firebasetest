@@ -46,8 +46,8 @@ public class SplashActivity extends AppCompatActivity {
                     // already signed in
                     // Create an Intent that will start the Popular Artists activity.
                     Intent mainIntent = new Intent(SplashActivity.this, MainActivity.class);
-                    SplashActivity.this.startActivity(mainIntent);
-                    SplashActivity.this.finish();
+                    startActivity(mainIntent);
+                    finish();
 
                 } else {
                     // not signed in
@@ -57,10 +57,11 @@ public class SplashActivity extends AppCompatActivity {
                                     .createSignInIntentBuilder()
                                     .setIsSmartLockEnabled(false)
                                     .setAvailableProviders(Arrays.asList(
-                                            new AuthUI.IdpConfig.PhoneBuilder().build()
+                                            new AuthUI.IdpConfig.PhoneBuilder().build(),
+                                            new AuthUI.IdpConfig.EmailBuilder().build()
                                     ))
                                     .setTheme(R.style.FirebaseCustomTheme)
-                                    .setLogo(R.mipmap.ic_launcher)
+                                    .setLogo(R.drawable.logo)
                                     .build(),
                             RC_SIGN_IN);
                 }

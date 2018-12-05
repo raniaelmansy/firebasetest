@@ -22,7 +22,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Test Button"
-        style="@style/styled_button"
         android:layout_margin="20dp"/>
 
     <ImageView
